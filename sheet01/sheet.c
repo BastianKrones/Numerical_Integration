@@ -4,7 +4,7 @@ int main(void)
 {
     FILE *fp;
 
-	fp = fopen("./sheet01/sheet.txt", "w");
+	fp = fopen("./sheet01/solution.txt", "w");
 	
     fprintf(fp, "Test worked");
 
