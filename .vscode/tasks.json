@@ -13,7 +13,7 @@
         "options": {
             "cwd": "${workspaceFolder}/sheet01"
         },
-        "command": "gcc -g sheet.c -o sheet -lm",
+        "command": "gcc -g sheet.c -o solution -lm",
         "problemMatcher": [],
         "presentation": {
             "echo": false,
@@ -30,7 +30,7 @@
             "isDefault": true
         },
         "dependsOn": "[BUILD] sheet01",
-        "command": "./sheet01/sheet",
+        "command": "./sheet01/solution",
         "problemMatcher": []
     }
 ]
